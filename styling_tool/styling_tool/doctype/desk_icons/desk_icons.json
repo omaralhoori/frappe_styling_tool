@@ -1,4 +1,5 @@
 {
+ "autoname": "field:style_name",
  "creation": "2021-03-16 22:07:15.343333",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -14,7 +15,8 @@
    "in_list_view": 1,
    "label": "Style Name",
    "options": "Desk",
-   "reqd": 1
+   "reqd": 1,
+   "unique": 1
   },
   {
    "fieldname": "modules_style_table",
@@ -23,7 +25,7 @@
    "options": "Desk Module Style"
   }
  ],
- "modified": "2021-03-17 22:27:17.512674",
+ "modified": "2021-03-18 16:38:48.569220",
  "modified_by": "Administrator",
  "module": "Styling Tool",
  "name": "Desk Icons",
