@@ -1,0 +1,40 @@
+{
+ "doctype": "DocType",
+ "field_order": [
+  "desk_module"
+ ],
+ "editable_grid": 1,
+ "module": "Styling Tool",
+ "sort_order": "DESC",
+ "fields": [
+  {
+   "options": "Desk",
+   "fieldtype": "Select",
+   "fieldname": "desk_module",
+   "label": "Desk Module"
+  }
+ ],
+ "permissions": [
+  {
+   "create": 1,
+   "email": 1,
+   "write": 1,
+   "role": "System Manager",
+   "share": 1,
+   "export": 1,
+   "report": 1,
+   "delete": 1,
+   "print": 1,
+   "read": 1
+  }
+ ],
+ "owner": "Administrator",
+ "track_changes": 1,
+ "modified_by": "Administrator",
+ "modified": "2021-03-17 21:20:42.087334",
+ "name": "Desk Styling",
+ "creation": "2021-03-16 22:07:15.343333",
+ "quick_entry": 1,
+ "engine": "InnoDB",
+ "sort_field": "modified"
+}
