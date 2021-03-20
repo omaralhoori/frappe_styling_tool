@@ -27,6 +27,8 @@ body[data-route="desktop"] .navbar-default {
   margin-top: 10px;
   transition: 0.2s;
   -webkit-transition: 0.2s;
+  color: inherit;
+  text-shadow: none;
 }
 .app-icon {
   padding: 10px;
