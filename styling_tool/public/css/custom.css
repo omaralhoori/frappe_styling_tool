@@ -29,7 +29,7 @@ body[data-route="desktop"] .navbar-default {
   -webkit-transition: 0.2s;
 }
 .app-icon {
-  padding: 20px;
+  padding: 10px;
   display: inline-block;
   margin: auto;
   text-align: center;
@@ -53,8 +53,9 @@ body[data-route="desktop"] .navbar-default {
 }
 .app-icon svg,
 .app-icon img {
-  height: 32px;
-  width: 32px;
+  height: 45px;
+  width: 45px;
+  max-width: inherit;
 }
 .app-icon path {
   transition: 0.2s;
@@ -295,4 +296,7 @@ body[data-route="desktop"] .navbar-set-desktop-icons {
 }
 .p-relative{
   position: relative;
+}
+.page-head{
+  background-color: transparent;
 }
